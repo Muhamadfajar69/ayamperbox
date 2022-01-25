@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="Menu.html">Menu Bagian Perbox</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="pemrosesan.html">Pemrosesan</a>
+            <a class="nav-item nav-link" href="CekPesanan.html">Cekpesanan</a>
+            <a class="nav-item nav-link disabled" href="Tentang.html" tabindex="-1" aria-disabled="true">Tentang kita</a>
+          </div>
+        </div>
+      </nav>
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Masukan email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">Kita tidak pernah membagikan email pada siapapun</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Masukan Nomor telepon</label>
+          <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter nomor">
+          <small id="emailHelp" class="form-text text-muted">Kita tidak pernah membagikan nomor pada siapapun</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Simpan Akun</label>
+        </div>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active">
+              Masukan Jumlah pesanan Perbox
+            </a>
+        </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Masukan jumlah pesanan</label>
+                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan jumlah pesanan disini">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Catatan</label>
+              <input type="catatan" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan Catatan">
+              <small id="emailHelp" class="form-text text-muted">Tambah catatan untuk request pemrosesan dalam pembelian atau apapun itu</small>
+            </div>
+        <button type="submit" class="btn btn-primary">BuatPesanan</button>
+      </form>
+</body>
+</html>
